@@ -1,0 +1,463 @@
+/*navibar*/
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family:'montserrat',sans-serif ; 
+}
+.nav{
+    background-color: hsl(39, 99%, 34%);
+    width: 100%;
+   
+}
+.imgadd{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+.imgph{
+    display: flex;
+    flex-direction: row; 
+}
+.addph{
+    display:inline-block;
+    background-color: rgb(249, 247, 245);
+    display: flex;
+    justify-content:space-evenly;
+    padding:10px;
+    flex-direction: row;
+}
+.address{
+    display:inline-block;
+    color: #0c0c0c;
+    font-size:12px;
+    justify-content: space-around;
+    margin-left: 60%;
+}
+.phone{
+    display:inline-block;
+    color: #0c0c0c;
+    font-size:12px;
+    justify-content: space-around;
+}
+.header{
+    background-color: rgb(252, 164, 3);
+    display: flex;
+    justify-content: space-around;
+    padding:4px;
+}
+.logo{
+    display:inline-block;
+    align-items: flex-end;
+    padding: 20px;
+    margin-right: 40%;
+    color: white;
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+}
+.a{
+    display:inline-block;
+    align-items: flex-end;
+    padding: 20px;
+    justify-content: space-around;
+    color: white;
+}
+.Contact{
+    background-color:rgb(250, 249, 246); 
+    border: none; 
+    color:orange; 
+    padding: 10px 30px; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px;
+    border-radius: 8px; 
+}
+/*digital marketing*/
+.container{
+    display: flex;
+    background: rgba(253, 246, 238, 1);
+    margin-right: 6%;
+    margin-left: 6%;
+    justify-content: space-evenly;
+}
+.head3{
+    margin-top: 30%;
+    color: orange;
+    font-size: medium; 
+    font-family: poppins; 
+}
+.head1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: poppins; 
+}
+.get{
+    background-color:rgb(252, 164, 3); 
+    border: none; 
+    color:rgb(250, 249, 248); 
+    padding: 10px 30px; 
+    display: inline-block; 
+    font-size: 15px; 
+    border-radius: 25px; 
+    margin-top: 9%;
+    width: 49%;
+    height: 12%;
+    font-family: poppins; 
+}
+.para{
+    font-family: poppins;
+}
+.head4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top:5%;
+    margin-bottom: 4%;
+    font-family: poppins;
+}
+/*lorem lpsum*/
+.container2{
+    display: flex;
+    align-content: space-evenly;
+    margin-left: 6%;
+    margin-right: 6%;   
+}
+.heading2{
+    margin-bottom: 3%;
+    font:poppins;
+}
+.para2{
+    margin-bottom: 3%;
+    font:poppins;
+    color: rgba(82, 82, 82, 1);
+    margin-top: 3%;
+}
+.container3{
+    display: flex;
+    align-content: space-evenly;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top:2%;
+}
+.head5{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top:5%;
+    margin-bottom: 4%;
+    font-family: poppins;
+}
+.para6{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: poppins;
+}
+.container5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.service {
+    flex: 1 1 20%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 4%;
+    box-sizing: border-box;
+}
+.sub-service {
+    flex: 1 1 45%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.service img, .sub-service img {
+    max-width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+.arrow0{
+    display: inline-block;
+    width: 40px;
+    height: 14px;
+    color: rgba(220, 112, 0, 1);
+    font: bold;
+    line-height: 14px;
+    border-radius: 6px;
+}
+.container6{ 
+    display: flex;
+    background: rgb(234, 233, 233);
+    margin-top: 5%;   
+}
+.heading6{
+    display: flex;
+    margin-top:3%;
+    margin-bottom: 4%;
+    margin-left: 6%;
+}
+.paraarrow{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left: 6%;
+    margin-bottom: 4%;
+}
+.arrow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 102px;
+    height: 39px;
+    border: 1px solid  rgb(234, 233, 233);
+    border-radius: 20px;
+    background-color: rgb(234, 233, 233) ;
+    margin-right: 10%;
+}
+.arrow1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;    
+    margin: 0 5px;
+}
+.content-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.button1{
+    margin-bottom: 15%;
+    background-color:rgb(211, 253, 209); 
+    border: none; 
+    color:rgb(20, 250, 8); 
+    padding: 10px 10px; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px;
+    font: bold;
+    border-radius: 8px; 
+}
+.button2{
+    margin-bottom: 15%;
+    margin-bottom: 15%;
+    background-color:rgb(255, 176, 176); 
+    border: none; 
+    color:rgb(253, 72, 7); 
+    padding: 10px 10px; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px;
+    font: bold;
+    border-radius: 8px; 
+}
+.button3{
+    margin-bottom: 15%;
+    margin-bottom: 15%;
+    background-color:rgb(255, 177, 255); 
+    border: none; 
+    color:purple; 
+    padding: 10px 10px; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px;
+    font: bold;
+    border-radius: 8px; 
+}
+.button4{
+    margin-bottom: 15%;
+    margin-bottom: 15%;
+    background: rgb(188, 211, 246);
+    border: none; 
+    color: rgba(0, 88, 220, 1); 
+    padding: 10px 10px; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px;
+    font: bold;
+    border-radius: 8px; 
+}
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: 1px;
+    width: 22%;
+    box-sizing: border-box;
+   margin-bottom: 10%;
+}   
+.card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-right: 2%;
+    margin-top: 7%;
+}
+.card p {
+    color: #777;
+    margin-bottom: 30px;
+}
+.card a {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 45%;
+}
+.arrow {
+    margin-left: 5px;
+    display: inline-block;
+    width: 1px;
+    height: 14px;
+    color:orange;
+    font: bold;
+    line-height: 14px;
+    border-radius: 3px;
+}
+/* our recent project*/
+.container7{
+   margin: 100px;
+ 
+}
+.container7 h3{
+    text-align: center;
+    display: flex;
+    margin-top:5.5%;
+    margin-bottom: 2%;
+    margin-left: 43%;
+   }
+
+.container7 h4{
+    margin-bottom: 5%;
+    text-align: center;
+ 
+}
+.container7 img{
+    border-radius: 9%;
+    flex-direction: row;
+    margin: 10px;
+}
+/*dummy text*/
+.content-cards1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.card1{
+    background-color: #fff;
+    padding: 40px;
+    margin: 1px;
+    width: 49.8%;
+    box-sizing: border-box;
+    
+}
+.card1 h2{
+    margin-bottom: 5%;
+    font-size:larger;
+}
+.card1 p{
+    font-size: small;
+}
+.card1 button{
+    height: 10%;
+    width: 25%;
+    background-color: orange;
+    color: white;
+    border:none;
+}
+
+ 
+
+.section-7{
+    margin-top: 200px;
+    margin-left: 200px;
+  
+    
+}
+.head-loop{
+    margin-top: -50px;
+}
+.box-loop{
+    margin-top: 80px;
+    color: white;
+    background-color: black;
+    width: 1100px;
+     height:150px;
+     border-radius: 15px;
+}
+.left-loop{
+    padding: 30px;
+}
+.right-loop{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-top: -50px;
+    padding-right: 200px;
+   margin-top: -100px;
+   
+}
+
+.right-loop input{
+    width: 350px;
+    height: 50px;
+    border-radius: 15px;
+    
+}
+.right-loop button{
+      width: 100px;
+      height: 40px;
+      background-color: #DF7C14;
+      color: #F5F5F5;
+      border-radius: 10px;
+      margin-left: -120px;
+      margin-top: 7px;  
+      border-color: #DF7C14;  
+}
+.section-8{
+    background-color: black;
+    color: #f0e9e9;
+    height: 340px;
+}
+.section-8 .column{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    column-gap: 170px;
+    background-color: black;
+    color: #f0e9e9;
+    padding-left: 100px;
+    padding: 60px;
+    
+}
+.column-1 h5{
+    padding-top: 30px;
+
+}
+.column-3 h4{
+    padding-top: 30px;
+}
+.column-4 img{
+    margin-top: 60px;
+}
+.footer{
+    text-align: center;
+    margin-bottom: 30px;
+    
+}

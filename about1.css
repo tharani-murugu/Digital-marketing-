@@ -1,0 +1,1002 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family:'montserrat',sans-serif ; 
+   overflow-x: hidden;
+}
+.nav{
+    background-color: hsl(39, 99%, 34%);
+    width: 110%;
+   
+}
+.imgadd{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+.imgph{
+    display: flex;
+    flex-direction: row; 
+}
+.addph{
+    display:inline-block;
+    background-color: rgb(249, 247, 245);
+    display: flex;
+    justify-content:space-evenly;
+    padding:10px;
+    flex-direction: row;
+}
+.address{
+    display:inline-block;
+    color: #0c0c0c;
+    font-size:12px;
+    justify-content: space-around;
+    margin-left: 60%;
+}
+.phone{
+    display:inline-block;
+    color: #0c0c0c;
+    font-size:12px;
+    justify-content: space-around;
+}
+.header{
+    width: 107%;
+    background-color: rgb(252, 164, 3);
+    display: flex;
+    justify-content: space-around;
+    padding:4px;
+}
+.logo{
+    display:inline-block;
+    align-items: flex-end;
+    padding: 20px;
+    margin-right: 40%;
+    color: white;
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+}
+.a{
+    display:inline-block;
+    align-items: flex-end;
+    padding: 20px;
+    justify-content: space-around;
+    color: white;
+}
+.header a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+ }
+.Contact{
+    background-color:rgb(250, 249, 246); 
+    border: none; 
+    color:orange; 
+    padding: 10px 30px; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px;
+    border-radius: 8px; 
+}
+.Contact a{
+    color:orange;
+    display: inline-block;  
+    margin: 4px 2px;
+    border-radius: 8px; 
+   
+ }
+#sidebar-active{
+    display: none;
+}
+.close{
+    display: none;
+}
+.open{
+    display: none;
+}
+/*dummy*/
+.container{
+    width: 100%;
+    display: flex;
+    background: rgba(253, 246, 238, 1);
+    margin-right: 6%;
+    margin-left: 6%;
+    justify-content: space-evenly;
+    padding: 8%;
+}
+
+.head1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: poppins; 
+    font-size: 30px;
+}
+.para{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: poppins; 
+    font-size: 25px;
+}
+.get{
+    background-color:rgb(252, 164, 3); 
+    border: none; 
+    color:rgb(250, 249, 248); 
+    padding: 10px 30px; 
+    display: inline-block; 
+    font-size: 15px; 
+    border-radius: 25px; 
+    margin-top: 9%;
+    width: 40%;
+    height: 12%;
+    font-family: poppins; 
+}
+/*box*/
+.container2{ 
+    width: 100%;
+    
+    display: flex;
+    margin-top: 5%;   
+}
+.heading2 h2{
+    font-size: 40px;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.content-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+ 
+}
+.button1{
+    margin-bottom: 15%;
+   
+    background-color:rgb(255, 177, 255); 
+    border: none; 
+    color:purple; 
+ 
+    padding: 10px 10px; 
+    display: inline-block; 
+    font-size: 20px; 
+    margin: 4px 2px;
+    font: bold;
+    border-radius: 8px; 
+}
+.button2{
+    margin-bottom: 15%;
+    margin-bottom: 15%;
+    background-color:rgb(255, 176, 176); 
+    border: none; 
+    color:rgb(253, 72, 7); 
+    padding: 10px 10px; 
+    display: inline-block; 
+    font-size: 20px; 
+    margin: 4px 2px;
+    font: bold;
+    border-radius: 8px; 
+}
+.button3{
+    margin-bottom: 15%;
+    margin-bottom: 15%;
+    background-color:rgb(211, 253, 209); 
+    border: none; 
+    color:rgb(20, 250, 8); 
+    padding: 10px 10px; 
+    display: inline-block; 
+    font-size: 20px; 
+    margin: 4px 2px;
+    font: bold;
+    border-radius: 8px; 
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: 1px;
+   
+    box-sizing: border-box;
+    margin-bottom: -10%;
+    width: 30%;
+    
+    background-color: rgba(0, 0, 0, 0.1);
+    
+
+}  
+.card1{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 8%;
+    margin-left: -14%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-top: -15%;
+    box-sizing: border-box;
+    height: 130%;
+    width: 128%;
+  
+} 
+card1 h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-right: 2%;
+    margin-top: 7%;
+
+}
+.card1 p {
+    color: #777;
+    margin-bottom: 30px;
+    margin-left: 4%;
+}
+.card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-right: 2%;
+    margin-top: 7%;
+    font-size: 30px;
+}
+.card p {
+    color: #777;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+/*text*/
+.text{
+    margin-top: 20%;
+    margin-left: 5%;
+  
+}
+.content-cards1{
+    display: flex;
+}
+.card11{
+    background-color: #fff;
+    padding: 40px;
+    width: 49.8%;
+    box-sizing: border-box;
+    margin-bottom: 1%;
+}
+.card11 h2{
+    margin-bottom: 5%;
+    font-size:40px;
+    text-align: justify;
+}
+.card11 p{
+    font-size: large;
+    text-align: justify;
+}
+.card11 h3{
+    font-size: 130%;
+    color: orange;
+    margin-bottom: 5%;
+}
+.team{
+    font-size: 35px;
+    margin-bottom: 2%;
+    margin-left: 5%;
+}
+.container3{
+    width: 110%;
+    flex-direction: row;
+}
+.teamimg{
+    
+    display: inline-block;
+    flex-direction: row;
+    padding: 15px;
+    width: 90%;
+    margin-left: 10%;
+ 
+}
+.team3{
+    display: inline-block;
+    flex-direction: row;
+    background: rgba(245, 245, 245, 1);
+    padding: 40px;
+    margin: 10px;
+    width: 20%;
+    box-sizing: border-box;
+    margin-bottom: 1%;
+    border-radius: 10%;
+    justify-content:space-evenly;
+ 
+}
+.team3 img{
+    height: 100px;
+    width: 100px;
+    margin-left: 20%;
+}
+.team3 h4{
+    margin-left: 20%;
+}
+.team3 p{
+    margin-left: 35%;
+}
+.container4{
+    width: 110%;
+    background-color: #ddd;
+    padding: 100px;
+    margin-top: 10%;
+}
+.container4 h2{
+    margin-bottom: 5%;
+
+}
+.container4 img{
+    display: inline-block;
+    flex-direction: row;
+    padding: 1%;
+    height: 15%;
+    width: 18%;
+    justify-content: space-evenly;
+}
+ 
+
+/*last*/
+.lastcon h3{
+    margin-left: 6%;
+    margin-bottom: 1%;
+    margin-top: 10%;
+    font-size: 32px;
+
+}
+.lastcon p{
+    margin-left: 6%;
+    font-size: 29px;
+}
+/*box*/
+.section-7{
+    margin-top: 70px;
+    margin-left: 80px;
+    
+}
+.box-loop{
+    margin-top: 80px;
+    color: white;
+    background-color: black;
+    width: 100%;
+     height:150px;
+     border-radius: 15px;
+}
+.left-loop{
+    padding: 30px;
+}
+.right-loop{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-top: -50px;
+    padding-right: 100px;
+    margin-top: -100px;  
+}
+.right-loop input{
+    width: 350px;
+    height: 50px;
+    border-radius: 15px;
+    
+}
+.right-loop button{
+      width: 100px;
+      height: 40px;
+      background-color: #DF7C14;
+      color: #F5F5F5;
+      border-radius: 10px;
+      margin-left: -120px;
+      margin-top: 7px;  
+      border-color: #DF7C14;  
+}
+/*addresslast*/
+.section-8{
+    width: 106%;
+    background-color: black;
+    color: #f0e9e9;
+    height: 340px;
+}
+.section-8 .column{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    column-gap: 170px;
+    background-color: black;
+    color: #f0e9e9;
+    padding-left: 100px;
+    padding: 60px;
+    
+}
+.column-1 h5{
+    padding-top: 30px;
+
+}
+.column-3 h4{
+    padding-top: 30px;
+}
+.column-4 img{
+    margin-top: 60px;
+    margin-left: -50%;
+}
+.footer{
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.home12{
+    color: gray;
+}
+.about12{
+    color: orange;
+}
+.marketing a{
+    text-decoration: none;
+}
+@media screen and (max-width:768px){
+    body{
+        font-family: sans-serif;   
+        overflow-x: hidden;
+    }
+    .addph{
+        width: 150%;
+       background-color: white;
+    }
+    .imgadd{
+        margin-left:-6%;
+        font-size: 20px;
+    
+    }
+    .imgadd img{
+        height: 16px;
+        width: 16px;
+        margin-left: -10%;
+    }
+    .imgph{
+        font-size: 20px;
+        margin-left:-10%;
+    }
+    .phone img{
+        height: 16px;
+        width: 16px;
+
+    }
+    /*nav*/
+     .header{
+        width: 150%;
+        border-color: #DF7C14; 
+     }
+     .header a{
+        font-size: 22px;
+        color: white;
+        text-decoration: none;
+     }
+     .logo{
+        font-size: 25px;
+     }
+     .navbar p{
+        font-size: 25px;
+        margin-left:-4% ;
+     }
+     .Contact a{
+        color:orange;
+        display: inline-block;  
+        margin: 4px 2px;
+        border-radius: 8px; 
+     }
+    
+   
+    .container{
+        background-color: rgb(250, 248, 244);
+        width: 140%;
+    }
+    .marketing{
+        margin-left: 100px;
+        
+    }
+    .marketing a{
+        font-size: 25px;
+    }
+    .home12{
+        color: gray;
+    }
+    .about12{
+        color: orange;
+    }
+    .head3{
+        font-size: 35px;
+        margin-top: 80px;
+    }
+    .head1{
+        font-size: 35px;
+    }
+    .para{
+        font-size: 28px;
+        text-align: justify;
+        margin-right: 10.5%;
+    }
+    .imgper{
+      right: -223px;
+    }
+    .get{
+        font-size: 35px;
+        width: 70%;
+        height: 90px;
+    }
+    .get img{
+        width: 10%;;
+    }
+    /*box*/
+    .container2{
+        width: 150%;
+    }
+    .heading2{
+        margin-left: 5%;
+    }
+    .card p{
+        font-size: 22;
+        }
+    .content-cards1{
+        width: 150%;
+    }
+    .card11 p{
+       font-size: 30px;
+    }
+    .card11 img{
+        height: 100%;
+        margin-left: -20%;
+    }
+    .container3{
+        width: 150%;
+    }
+    .container4{
+        width: 150%;
+    }
+    .section-7{
+        width: 120%;
+     margin:10%;
+        
+     }
+     .left-loop h2{
+        font-size: 30px;
+     }
+     left-loop p{
+        font-size: 28px;
+        margin-left: 10%;
+     }
+     .box-loop{
+        width: 110%;
+        left: 10%;
+     }
+     .right-loop{
+        width: 45%;
+        margin-right: -10%;
+     }
+     .section-8{
+        width: 150%;
+     }
+    .column{
+        width:100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 100px;
+    }
+    .column-4 img {
+        margin-top: 60px;
+        width: 321px;
+        margin-left: -51px;
+      
+    }
+    .column-1{
+        font-size: 30px;
+        margin-left: -1%;
+    }
+    .column-1 h5{
+        font-size: 28px;
+
+    }
+    .column-2 p{
+        font-size: 30px;
+        margin-bottom: 5%;
+    }
+    .column-2 h5{
+        font-size: 35px;
+        margin-bottom: 5%;
+    }
+    .column-3{
+        position: relative;
+        left: -5px;
+        font-size: 30px;
+    }
+    .column-3 h5{
+        font-size: 35px;
+        margin-bottom: 5%;
+    }
+    .footer{
+        background-color: black;
+        color: #fcfcfc;
+        height: 50px;
+        margin-top: -19px;
+    }
+    .footer p{
+        padding-top: 10px;
+        font-size: 25px;
+    }    
+ } 
+
+ @media screen and (max-width:425px){
+    .addph{
+        width: 200%;
+      }
+      
+      .addph p{
+          font-size: 30px;
+          margin-left: -70%;
+          display: none;
+      }
+      .addph img{
+          width: 60px;
+          height: 50px;
+          margin-left: 400%;
+      }
+      /*navbar*/
+      .header{
+          width: 300%;
+          height: 200px;
+      }
+      .logo{
+          font-size: 80px;
+          margin-top: -1px;
+      }
+      .header p{
+          margin-bottom: 10px;
+          margin-top: 10px;
+          margin-left: 40%;
+         
+      }
+      .header a{
+        font-size: 60px;
+    }
+    .Contact a{
+        width: 20%;
+        text-align: center;
+        color:orange;
+        display: inline-block;  
+    }
+    .Contact{
+        width: 50%;
+        height: 10%;
+        font-size: 60px;
+        margin-top: 50px;
+        margin-left: 25%;
+    }
+    
+      .close{
+          display: block;
+          margin-left: 1500%;
+          margin-top: 100%;
+          height: 80px;
+          width: 60px;
+      }
+      
+      .links-container {
+          display: none;
+          flex-direction: column;
+          align-items: flex-start;
+          position: fixed;
+          top: 0;
+          right: 0;
+          z-index: 10px;
+          width: 100%;
+          height: 60%;
+          background:orange;
+          box-shadow: -5px 0 5px rgba(0,0,0,0.25);
+          margin-top: 6%;
+          
+      }
+      .links-container a{
+          box-sizing: border-box;
+          height: auto;
+          width: 100%;
+          padding: 10px 20px;
+          margin-top: -20%;
+          justify-content: first baseline;
+      }
+      .open{
+          display: block;
+          width: 100%;
+          height: 50%;
+          margin-left: -10%;
+          margin-top: 50px;
+          
+      }
+      .nav.checkbox{
+          display: none;
+      }
+      
+      #sidebar-active:checked ~.links-container{
+          display: flex;
+      }
+      .container{
+        width: 150%;
+        background:white;
+        margin-left: -1%;
+        margin-right: 1%;
+
+    }
+    .marketing{
+        width: 300%;
+    }
+    .marketing a{
+        font-size: 35px;
+       
+        width: 300%;
+    }
+    .about12{
+       
+        font-size: 100px;
+        color: orange;
+       
+    }
+    .home12{
+       
+        font-size: 100px;
+        color:gray;
+       
+
+    }
+    .imgper{
+        display: inline-flex;
+        width: 200%;
+        margin-top: 30%;
+        margin-left: -100%;
+        margin-bottom: 10px;
+
+    }
+    .imgph{
+        margin-left: 100%;
+    }
+    
+    .imgper img{
+        
+        margin-top: -5%;
+        width: 700px;
+        height: 700px;
+        margin-top: 3%;
+        margin-left: 30%;
+        margin-right: 30%;
+        justify-content: space-evenly;
+    }
+    .marketing h3{
+        font-size: 70px;
+       margin-bottom: 70%;
+       margin-left: -1%;
+
+    }
+    .marketing h1{
+        font-size: 80px;
+        margin-top: 300%;
+        width: 300%;
+    }
+    .marketing p{
+        font-size: 60px;
+        text-align: justify;
+        width: 300%;
+    }
+    .get{
+        width: 200%;
+        height: 10%;
+        font-size: 60px;
+        margin-bottom: 20%;
+        border-radius: 80px;
+    }
+    .heading2 h2{
+        width: 200%;
+        font-size: 70px;
+        margin-bottom: 30%;
+        margin-left: 20%;
+        margin-top: 100px;
+    }
+
+    .container2{
+        width: 250%;
+    }
+    .content-cards{
+        width: 150%;
+    }
+    .card{
+        width: 100%;
+        margin-left: 20%;
+        margin-bottom: 20%;
+    }
+    .card1{
+        margin-bottom: -10%;
+    }
+    .card p{
+        font-size: 50px;
+    }
+    .card h2{
+        font-size: 60px;
+    }
+    .button1{
+        font-size: 50px;
+    }
+    .button2{
+        font-size: 50px;
+    }
+    .button3{
+        font-size: 50px;
+    }
+    .button4{
+        font-size: 50px;
+    }
+    .text{
+      
+        width: 150%;
+    }
+    
+    .content-cards1{
+        flex-direction: column;
+        width: 180%;
+
+    }
+    .card11{
+        width: 90%;
+        margin-left:10%;
+    }
+    .card11 img{
+       margin-left: -15%;
+        width: 1000px;
+        height: 800px;
+    }
+    .card11 h3{
+        font-size: 60px;
+    }
+    .card11 h2{
+        font-size: 50px;
+    }
+    .card11 p{
+        font-size: 50px;
+    }
+
+
+    .team h3{
+        width: 150%;
+        font-size: 80px;
+        margin-left: 30%;
+        margin-bottom: -30%;
+    }
+    .container3{
+        width: 150%;
+    }
+    .teamimg{
+        width: 170%;
+    }
+    .team3{
+        width:50%;
+        margin-left: 20%;
+        margin-top: 20%;
+
+    }
+    .team3 img{
+        height: 70%;
+        width: 70%;
+    }
+    .team3 h4{
+        font-size: 40px;
+    }
+    .team3 p{
+        font-size: 40px;
+    }
+    .container4{
+        width: 250%;
+        overflow-x: hidden;
+        margin-left: 25%;
+    }
+    .container4 h2{
+        font-size: 50px;
+    }
+    .image{
+        width: 150%;
+    }
+    .image img{
+        width: 50%;
+    }
+   
+    .lastcon{
+        width: 190%;
+    }
+    .lastcon h3{
+        font-size: 50px;
+        margin-left:15%;
+    }
+    .lastcon p{
+        font-size: 44px;
+        width: 120%;
+        text-align: justify;
+        margin-right: 30px;
+        margin-top: 50px;
+        margin-left:15%;
+    }
+    .box-loop{
+        width: 200%;
+        height: 600%;
+        margin-left: 3%;
+    }
+    .left-loop h2{
+       font-size: 60px;
+       margin-bottom: 8%;
+       margin-left: 7%;
+    }
+    .left-loop p{
+        font-size: 40px;
+        margin-bottom: 12%;
+        margin-left: 8%;
+       
+    }
+    .right-loop{
+        width: 80%;
+        margin-top: -10%;
+        margin-bottom: 10%;
+        margin-right: 70px;
+    }
+    .right-loop h4{
+        margin-left:10px;
+        font-size: -10px;
+    }
+    .right-loop text{
+        font-size: 70px;
+       
+    }
+    .section-8{
+        width: 300%;
+    }
+    .column-1 h2{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .column-1 p{
+        font-size: 40px;
+    }
+    .column-1 h5{
+        font-size: 40px;
+    }
+    .column-2{
+        margin-left: -10%;
+        display: inline-block;
+        width: 150%;
+        margin-left: 1%;
+    }
+    .column-2 h5{
+        font-size: 50px;
+    }
+    .column-2 p{
+        font-size: 40px;
+    }
+    .column-3{
+        width: 150%;
+       margin-left: -1%;
+    }
+    .column-3 h5{
+        font-size: 60px;
+    }
+    .column-3 p{
+        font-size: 40px;
+    }
+    .column-3 h4{
+        font-size: 40px;
+    }
+    .column-4 img{
+        margin-top: 10px;
+    }
+    .footer p{
+        font-size: 25px;
+        margin-bottom: -10px;
+        margin-top: -10px;
+    }
+   
+ }
